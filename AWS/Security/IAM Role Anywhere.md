@@ -346,5 +346,5 @@ Schedule via **Task Scheduler** or a **startup script** if needed.
 
 ---
 
-Let me know if you'd like me to package this into a downloadable `.zip` with all scripts and templates.
+Below is the complete [package to dowonload](/aws_rolesanywhere_automation.zip) and work you can unzip the `.zip` file which contains  all scripts and templates.
 
