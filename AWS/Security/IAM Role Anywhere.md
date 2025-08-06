@@ -61,7 +61,7 @@ On-Premise Windows Machine (.NET App)
 
 ---
 
-### ### 2. On-Prem Windows Machine – Credential Setup
+### 2. On-Prem Windows Machine – Credential Setup
 
 #### a. **Install aws\_signing\_helper**
 
