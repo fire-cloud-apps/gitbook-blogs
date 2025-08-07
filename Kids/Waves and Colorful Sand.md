@@ -1,4 +1,5 @@
-## <font color="#FF9800">The Whispering Waves and the Colorful Sand 🏖️</font>
+## <font color="#FF9800">Colorful Sand 🏖️</font>
+<font size="1"> The Whispering Waves and the Colorful Sand </font>
 
 Once upon a time, in a land not too far from here, where the warm sun kissed the sandy shores, lived a little sea turtle named Shelley. Shelley loved listening to the waves crash and whisper secrets to the shore. One sunny morning, as she was waddling along the beach, she noticed something peculiar. The sand wasn't just the usual golden color! There were patches of black, red, and even green mixed in!
 

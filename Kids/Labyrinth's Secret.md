@@ -1,6 +1,7 @@
 
 
-# <font color="#4CAF50">The Story of the Labyrinth's Secret </font>
+# <font color="#4CAF50">Labyrinth's Secret </font>
+<font size="1"> The Story of the Labyrinth's Secret </font>
 
 **Genre:** Mythology, Adventure 🏛️
 

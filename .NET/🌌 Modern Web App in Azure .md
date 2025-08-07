@@ -1,5 +1,5 @@
-# 🌌 Modern Web App using .NET + Azure
-
+# 🌌 Modern Web App
+<font size="1"> Modern Web App using .NET + Azure </font>
 ## Key Points
 - It seems likely that focusing on "Architecting Modern Web Applications with ASP.NET Core and Azure" is a great way to learn or refresh .NET knowledge, given its relevance to modern development.
 - Research suggests this topic covers building scalable, secure, and cloud-ready web apps using .NET 8 and Azure, offering cross-platform support and cost-effective hosting.
