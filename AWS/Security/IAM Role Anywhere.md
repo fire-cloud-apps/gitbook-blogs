@@ -1,6 +1,6 @@
 
 
-# 🔒IAM Role Anywhere
+# 🔒<font color="#757575">IAM Role Anywhere</font>
 
 With the increasing and evolving security threats, how can on-premise servers efficiently and securely communicate with AWS Secrets Manager? Below is the enhanced and structured guide, now detailing how to securely consume AWS Secrets Manager from an on-premise Windows machine using .NET, leveraging IAM Roles Anywhere.
 
@@ -104,7 +104,7 @@ credential_process = "C:\\tools\\aws-signing-helper\\aws_signing_helper.exe" cre
 dotnet add package AWSSDK.SecretsManager
 ```
 
-> Ensure `AWSSDK.Core` is also referenced.
+>  Ensure `AWSSDK.Core` is also referenced.
 
 ---
 
