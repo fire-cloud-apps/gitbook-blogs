@@ -1,4 +1,7 @@
-# Azure Synapse Analytics for Real-Time Data Analytics
+# Real-Time Data Analytics
+<font size="1"> Azure Synapse Analytics for Real-Time Data Analytics
+</font>
+
 
 ## Concept Title
 **Real-Time Data Analytics with Azure Synapse Analytics** 🛠️
