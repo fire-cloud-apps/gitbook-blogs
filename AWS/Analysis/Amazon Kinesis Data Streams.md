@@ -1,4 +1,4 @@
-# Amazon Kinesis Data Streams 🛠️
+# 🛠️ Amazon Kinesis 
 
 ## Title: Real-Time Data Streaming with Amazon Kinesis Data Streams
 
