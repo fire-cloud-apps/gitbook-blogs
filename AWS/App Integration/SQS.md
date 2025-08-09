@@ -1,9 +1,7 @@
-
+![Simple Queue Service](../icons/Arch_App-Integration/32/Arch_Amazon-Simple-Queue-Service_32.svg)
+       
 # Aws SQS
 
-![Simple Queue Service](../icons/Arch_App-Integration/16/Arch_Amazon-Simple-Queue-Service_16.svg)
-
-## AWS Topic: Amazon Simple Queue Service (SQS) 
 
 ### 1. Core Principles
 Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables decoupling and asynchronous communication between distributed systems, applications, or microservices. SQS allows producers to send messages to a queue, where they are stored until consumers retrieve and process them. Key concepts include:
