@@ -1,8 +1,7 @@
 
 # Aws SQS
 
-<img src="../icons/SimpleQueueService.png" alt="Amazon Simple Queue Service" width="200" height="100">
-
+![Simple Queue Service](../icons/Arch_App-Integration/16/Arch_Amazon-Simple-Queue-Service_16.svg)
 
 ## AWS Topic: Amazon Simple Queue Service (SQS) 
 
