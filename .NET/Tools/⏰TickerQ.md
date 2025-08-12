@@ -131,5 +131,5 @@ TickerQ is an excellent choice for .NET developers who need a fast, modern, and 
   * **Distributed Systems & Locking:** The concepts behind ensuring a job runs only once in a multi-instance environment.
   * **Hangfire & Quartz.NET:** The established background job libraries that TickerQ aims to improve upon.
 
-  <p onclick="navigator.clipboard.writeText('&#128540;')"  style="font-size:48px">&#128540;</p>
+
 

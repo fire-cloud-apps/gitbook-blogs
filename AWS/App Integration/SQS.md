@@ -139,3 +139,5 @@ Amazon SQS is a powerful, fully managed message queuing service that enables dec
 > Tag
 
 `SQS`, `event-driven`
+
+  <p onclick="navigator.clipboard.writeText('&#128540;')"  style="font-size:48px">&#128540;</p>
