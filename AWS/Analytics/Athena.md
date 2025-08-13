@@ -1,6 +1,6 @@
 # Athena
 
-<div align="left"><img src="../icons/Arch_App-Integration/64/Arch_Amazon-Athena_64.svg" alt="Amazon Athena" width="60"></div>
+
 
 ### 1\. Overview
 
