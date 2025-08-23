@@ -1,5 +1,19 @@
 ---
 description: 'Amazon Kinesis: A Comprehensive Guide to Real-Time Data Streaming 🚀'
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # 🛠️ Amazon Kinesis
@@ -114,8 +128,12 @@ Here's a step-by-step guide for a real-time log analytics solution using Kinesis
 
 **Diagram 1: Real-time Log Analytics Pipeline**
 
-Code snippet
+{% tabs %}
+{% tab title="Diagram" %}
+<figure><img src="../../../.gitbook/assets/Real-time Log Analytics Pipeline-Kinesis-D1.png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
+{% tab title="Mermaid Syntax" %}
 ```mermaid
 graph TD
     subgraph Data Producers
@@ -147,11 +165,19 @@ graph TD
 
     I --> J
 ```
+{% endtab %}
+{% endtabs %}
+
+
 
 **Diagram 2: Real-time Fraud Detection**
 
-Code snippet
+{% tabs %}
+{% tab title="Diagram" %}
+<figure><img src="../../../.gitbook/assets/Real-time Log Analytics Pipeline-Kinesis-D2.png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
+{% tab title="Code" %}
 ```mermaid
 graph TD
     subgraph Data Producers
@@ -173,6 +199,8 @@ graph TD
     E --Predict Fraud--> C
     C --Send Alert--> F
 ```
+{% endtab %}
+{% endtabs %}
 
 ***
 
@@ -264,8 +292,12 @@ Sample Calculation (Kinesis Data Streams - Provisioned Mode):
 
 **On-Premise Apache Kafka Data Flow Diagram**
 
-Code snippet
+{% tabs %}
+{% tab title="Diagram" %}
+<figure><img src="../../../.gitbook/assets/Real-time Log Analytics Pipeline-Kinesis-D3.png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
+{% tab title="Mermaid Syntax" %}
 ```mermaid
 graph TD
     subgraph Data Producers
@@ -296,6 +328,8 @@ graph TD
     F --> H
     G --> I
 ```
+{% endtab %}
+{% endtabs %}
 
 ***
 
