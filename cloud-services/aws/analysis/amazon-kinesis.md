@@ -81,7 +81,7 @@ Here's a step-by-step guide for a real-time log analytics solution using Kinesis
 
        JSON
 
-       ```
+       ```json
        {
          "cloudwatch.emitMetrics": true,
          "flows": [
