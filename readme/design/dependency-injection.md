@@ -1,5 +1,6 @@
 ---
 description: 🚀 Dependency Injection in .NET 🚀
+icon: crutch
 ---
 
 # Dependency Injection
@@ -7,8 +8,9 @@ description: 🚀 Dependency Injection in .NET 🚀
 ## Dependency Injection (DI)
 
 `Last Date : Aug-18-2025`\
-\
-![DI](https://raw.githubusercontent.com/sr-ganesh-ram/Learning.Contents/main/img/dot-net/dependency-injection.png)
+
+
+<div align="left"><figure><img src="https://raw.githubusercontent.com/sr-ganesh-ram/Learning.Contents/main/img/dot-net/dependency-injection.png" alt="" width="188"><figcaption></figcaption></figure></div>
 
 📖 What is Dependency Injection? 📖
 
@@ -121,29 +123,14 @@ ASP.NET Core has first-class DI support. Services are registered in `Program.cs`
 To visualize how DI works in .NET, here's a Mermaid sequence diagram showing registration, resolution, and usage:\
 
 
-```mermaid
-sequenceDiagram
-    participant AppStartup as App Startup
-    participant DIContainer as DI Container (IServiceProvider)
-    participant DependentClass as Dependent Class (e.g., Worker)
-    participant Dependency as Dependency (e.g., MessageWriter)
-
-    AppStartup->>DIContainer: Register Service (AddSingleton<IMessageWriter, MessageWriter>())
-    Note right of DIContainer: Service registered with lifetime
-
-    DependentClass->>DIContainer: Request Resolution (via Constructor)
-    DIContainer->>Dependency: Create Instance (based on lifetime)
-    DIContainer-->>DependentClass: Inject Dependency
-
-    DependentClass->>Dependency: Use Injected Service (e.g., Write())
-```
+<figure><img src="../../.gitbook/assets/di-aug-23.png" alt=""><figcaption></figcaption></figure>
 
 \
 
 
 This diagram illustrates the flow from startup to runtime usage, highlighting the container's role.
 
-This topic is a great starting point for refreshing .NET skills—mastering DI will enhance your ability to architect clean, enterprise-level applications.
+
 
 \
 
