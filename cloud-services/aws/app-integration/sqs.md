@@ -1,4 +1,5 @@
 ---
+description: Amazon Simple Queue Service
 layout:
   width: default
   title:

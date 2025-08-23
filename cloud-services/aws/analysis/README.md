@@ -1,2 +1,6 @@
+---
+icon: chart-simple
+---
+
 # Analysis
 
