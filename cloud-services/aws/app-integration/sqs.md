@@ -17,7 +17,7 @@ layout:
 
 # 📈 Aws SQS
 
-<div align="left"><img src="../icons/Arch_App-Integration/64/Arch_Amazon-Simple-Queue-Service_64.svg" alt="Simple Queue Service" width="60"></div>
+<div align="left"><img src="../../../AWS/icons/Arch_App-Integration/64/Arch_Amazon-Simple-Queue-Service_64.svg" alt="Simple Queue Service" width="60"></div>
 
 ### 1. Core Principles
 
@@ -140,4 +140,4 @@ Amazon SQS is a powerful, fully managed message queuing service that enables dec
 
 `SQS`, `event-driven`
 
-  <p onclick="navigator.clipboard.writeText('&#128540;')"  style="font-size:48px">&#128540;</p>
+😜
