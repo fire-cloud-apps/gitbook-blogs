@@ -1,7 +1,7 @@
 ---
+description: https://azure.microsoft.com/en-us/products
 icon: buoy-mooring
 ---
 
 # Azure
 
-{% embed url="https://azure.microsoft.com/en-us/products" %}
