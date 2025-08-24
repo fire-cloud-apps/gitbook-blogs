@@ -16,6 +16,7 @@
     * [AI & ML](cloud-services/aws/ai-and-ml/README.md)
       * [Augment AI](cloud-services/aws/ai-and-ml/augment-ai.md)
       * [Bedrock](cloud-services/aws/ai-and-ml/bedrock.md)
+      * [Comprehend](cloud-services/aws/ai-and-ml/comprehend.md)
       * [Code Guru](cloud-services/aws/ai-and-ml/code-guru.md)
       * [Kendra](cloud-services/aws/ai-and-ml/kendra.md)
   * [Azure](cloud-services/azure/README.md)
