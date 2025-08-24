@@ -1,9 +1,11 @@
 ---
-description: '🚀 AWS Cloud Expert Guidance: Amazon Kendra'
+description: >-
+  Amazon Kendra 🛠️ is a highly accurate and easy-to-use enterprise search
+  service powered by machine learning.
 icon: books
 ---
 
-# Amazon Kendra
+# Kendra
 
 ## Overview
 
