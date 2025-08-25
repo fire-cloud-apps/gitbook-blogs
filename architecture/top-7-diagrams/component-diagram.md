@@ -63,7 +63,7 @@ graph TD
     WebInterface[Web Interface] --> |uses| AuthService[«component»\nAuth Service]
 
     AuthService --o AuthInterface[[IAuthService]]
-    AuthInterface : +login(username, password)\n+logout()
+    AuthInterface -- +login(username, password)\n+logout()
 
     DB[(Database)]
     AuthService --> DB
@@ -76,6 +76,8 @@ A more complex interaction involving multiple components with defined required a
 **Use Case:** After checkout, the `Order Service` initiates a payment. It connects to the `Payment Service` via the `IPaymentProvider` interface. The `Payment Service` processes the transaction by communicating with an external bank's API.
 
 **Mermaid Syntax:**
+
+
 
 ```mermaid
 graph LR
@@ -199,3 +201,6 @@ graph TB
     %% Service to External System connection
     PaymentService --> BankAPI
 ```
+
+
+

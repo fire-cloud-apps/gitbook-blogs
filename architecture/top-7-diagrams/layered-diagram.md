@@ -1,15 +1,11 @@
 ---
+description: Layered Diagram
 icon: '7'
 ---
 
 # Layered Diagram
 
-Got it ✅\
-Let’s deep dive into **Layered Diagrams** systematically, as you requested.
-
 ***
-
-## 📌 Layered Diagram
 
 ### 1. What is it?
 

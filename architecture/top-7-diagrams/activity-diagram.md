@@ -74,6 +74,19 @@ flowchart TD
     F --> G
 ```
 
+
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[Enter Username & Password]
+    B --> C[Validate Credentials]
+    C --> D{Valid?}
+    D -- Yes --> E[Redirect to Dashboard]
+    D -- No --> F[Show Error Message]
+    E --> G([End])
+    F --> G
+```
+
 **2. Medium: Order Fulfillment Process**
 
 A more complex workflow involving parallel activities and multiple decision points. It shows what happens after a customer places an order.
@@ -138,6 +151,8 @@ flowchart TD
     NotifyApprove --> End([End])
     NotifyReject --> End
 ```
+
+
 
 ***
 
