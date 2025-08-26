@@ -14,6 +14,8 @@
     * [Activity Diagram](architecture/top-7-diagrams/activity-diagram.md)
     * [State Diagram](architecture/top-7-diagrams/state-diagram.md)
     * [Layered Diagram](architecture/top-7-diagrams/layered-diagram.md)
+  * [Solutions](architecture/solutions/README.md)
+    * [Multi-Tenenet DB](architecture/solutions/multi-tenenet-db.md)
 * [Cloud Services](cloud-services/README.md)
   * [AWS](cloud-services/aws/README.md)
     * [Analysis](cloud-services/aws/analysis/README.md)
