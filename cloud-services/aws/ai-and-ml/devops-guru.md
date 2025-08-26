@@ -1,11 +1,9 @@
 ---
-description: 'Amazon DevOps Guru: AI-Powered Operational Insights'
+description: Amazon DevOps Guru - AI-Powered Operational Insights
 icon: dev
 ---
 
 # DevOps Guru
-
-## Amazon DevOps Guru
 
 {% columns %}
 {% column %}
