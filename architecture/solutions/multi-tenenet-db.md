@@ -27,13 +27,21 @@ Recently one of our client, has requested for an application design, which requi
 
 ***
 
-> Basically or at a high level we can think of it as a workflow appliation, similar to "Monday", "Asana" or "ClickUp", where we can defined multiple custom fields and custom levels can be achived.&#x20;
+> :money\_with\_wings: Basically or at a high level we can think of it as a workflow appliation, similar to "Monday", "Asana" or "ClickUp", where we can defined multiple custom fields and custom levels can be achived.&#x20;
 
-Example:
 
-* Task 1 (may have 5 fixed fields, 15 custom fields and each will have different data types available within C#)
-  * Sub-Task-1 of 'Task-1' (may have 5 fixed fields, 15 custom fields and each will have different data types available within C#)
-  * Sub-Task-2 of 'Sub-Task-1' and goes on up to 50.
+
+<details>
+
+<summary>Example Screnario in Short</summary>
+
+1. Task 1 (may have 5 fixed fields, 15 custom fields and each will have different data types available within C#)
+   1. Sub-Task-1 of 'Task-1' (may have 5 fixed fields, 15 custom fields and each will have different data types available within C#)
+   2. Sub-Task-2 of 'Sub-Task-1' and goes on up to 50.
+
+</details>
+
+
 
 > :money\_mouth: The worst part is that we can anticipate upto 80 million records, and each sub-task may have up to 10 million sub-tasks and it may goes on. With the given problem statement we have defined the schema which suits our workflow, yet to identify the performance but at a initial stage it is coming our very well.
 
