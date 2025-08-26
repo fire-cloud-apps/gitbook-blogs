@@ -28,6 +28,7 @@
       * [Comprehend](cloud-services/aws/ai-and-ml/comprehend.md)
       * [Code Guru](cloud-services/aws/ai-and-ml/code-guru.md)
       * [Kendra](cloud-services/aws/ai-and-ml/kendra.md)
+      * [DevOps Guru](cloud-services/aws/ai-and-ml/devops-guru.md)
   * [Azure](cloud-services/azure/README.md)
     * [Real-Time Data Analytics](cloud-services/azure/real-time-data-analytics.md)
 * [Database](database/README.md)
