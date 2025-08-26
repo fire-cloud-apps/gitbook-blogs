@@ -51,9 +51,11 @@ Recently one of our client, has requested for an application design, which requi
 
 #### Below is the schema structure for the given problem above.&#x20;
 
-#### Collection: `tasks`
+<details>
 
-```javascript
+<summary>Collection: project/tasks</summary>
+
+```json
 {
   "_id": ObjectId("507f1f77bcf86cd799439011"),
   "tenantId": "tenant_001",
@@ -150,9 +152,15 @@ Recently one of our client, has requested for an application design, which requi
 }
 ```
 
-#### Collection: `task_schema` (Per Tenant Configuration)
+</details>
 
-```javascript
+#### <i class="fa-plus">:plus:</i>
+
+<details>
+
+<summary>Collection: task_schema (Per Tenant Configuration)</summary>
+
+```json
 {
   "_id": ObjectId("607f1f77bcf86cd799439012"),
   "tenantId": "tenant_001",
@@ -209,6 +217,8 @@ Recently one of our client, has requested for an application design, which requi
   }
 }
 ```
+
+</details>
 
 ### :exclamation: Example JSON Data Structure
 
