@@ -1,5 +1,6 @@
 ---
 description: Amazon Simple Queue Service
+icon: q
 layout:
   width: default
   title:
@@ -16,7 +17,7 @@ layout:
     visible: true
 ---
 
-# 📈 Aws SQS
+# Aws SQS
 
 <div align="left"><img src="../../../AWS/icons/Arch_App-Integration/64/Arch_Amazon-Simple-Queue-Service_64.svg" alt="Simple Queue Service" width="60"></div>
 
