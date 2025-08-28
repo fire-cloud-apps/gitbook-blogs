@@ -25,6 +25,7 @@
       * [Aws SQS](cloud/aws/app-integration/sqs.md)
       * [Step Function](cloud/aws/app-integration/step-function.md)
       * [App Flow](cloud/aws/app-integration/app-flow.md)
+      * [B2B Data Interchange](cloud/aws/app-integration/b2b-data-interchange.md)
     * [Blockchain](cloud/aws/blockchain/README.md)
       * [Blockchain](cloud/aws/blockchain/blockchain.md)
       * [QLDB](cloud/aws/blockchain/qldb.md)
