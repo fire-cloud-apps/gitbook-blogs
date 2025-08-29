@@ -5,6 +5,8 @@
   * [🌌 Modern Web App](<.NET/🌌 Modern Web App in Azure .md>)
   * [Design](readme/design/README.md)
     * [Dependency Injection](readme/design/dependency-injection.md)
+  * [Problems & Solutions](readme/problems-and-solutions/README.md)
+    * [Serverless with Legacy Integration](readme/problems-and-solutions/serverless-with-legacy-integration.md)
 * [Architecture](architecture/README.md)
   * [Top 7 Diagrams](architecture/top-7-diagrams/README.md)
     * [Sequence Diagram](architecture/top-7-diagrams/sequence-diagram.md)
