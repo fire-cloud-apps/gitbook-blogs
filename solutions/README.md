@@ -1,5 +1,5 @@
 ---
-icon: face-saluting
+icon: ufo-beam
 ---
 
 # Solutions
