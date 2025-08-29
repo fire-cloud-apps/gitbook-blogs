@@ -46,10 +46,14 @@ For the given context,
 
 Users should **log in once via Cognito** and seamlessly access:
 
-* **New APIs** (validated via JWT tokens), and
+* **New APIs** (validated via JWT tokens)
 * **Legacy modules** (validated via Forms Authentication cookies).
 
-Without a bridging solution, users would need to log in twice, which is not acceptable. Lets see how we will a **hybrid authentication bridge** that exchanges **Cognito tokens for Forms Authentication cookies** in the legacy app.
+> Without a bridging solution, users would need to log in twice, which is not acceptable. Lets see how we will a **hybrid authentication bridge** that exchanges **Cognito tokens for Forms Authentication cookies** in the legacy app.
+
+{% hint style="info" %}
+This solution we focus using AWS Cognito, but this suits to any Authentication Providers it can be Azure B2C, B2B etc.
+{% endhint %}
 
 ***
 
@@ -63,12 +67,19 @@ Without a bridging solution, users would need to log in twice, which is not acce
    * SPA includes **Access token** in requests to **API Gateway + Lambda**.
    * Lambda validates the token against Cognito’s public keys.
    * Data is returned if token is valid.
-3. **Legacy Session Bridging**
-   * SPA calls **`/sessionLogin`** endpoint on the legacy MVC app with the **ID token**.
-   * Legacy app validates the JWT with Cognito.
-   * If valid, it issues a **FormsAuth cookie** (`.ASPXAUTH`) via `FormsAuthentication.SetAuthCookie()`.
-   * Browser stores cookie (with `Secure`, `HttpOnly`, and `domain=.example.com`).
-   * Legacy modules now accept user as authenticated.
+3.  **Legacy Session Bridging**
+
+    * SPA calls **`/sessionLogin`** endpoint on the legacy MVC app with the **ID token**. <mark style="color:$info;">In general, it should perform a "POST" Call.</mark>
+    * Legacy app validates the JWT with AWS Cognito.
+    * If valid, it issues a **FormsAuth cookie** (`.ASPXAUTH`) via `FormsAuthentication.SetAuthCookie()`.
+    * Browser stores cookie (with `Secure`, `HttpOnly`, and `domain=.example.com`).
+    * Legacy modules now accept user as authenticated.
+
+
+
+{% hint style="warning" %}
+Similar to SessionLogin, When sign-out happens, similar to login the session clearance should happens via secure POST.
+{% endhint %}
 
 ***
 
@@ -134,6 +145,68 @@ flowchart TB
     LegacyWeb -- "Response (Set-Cookie: FormsAuth)" --> Browser
     Browser -. "Stores FormsAuth Cookie" .-> LegacyWeb
 ```
+
+### :heavy\_equals\_sign: Workflow Before and After
+
+{% columns %}
+{% column %}
+Legacy Workflow
+
+```mermaid
+flowchart TB
+    User["User (Browser)"]
+    Legacy[".NET MVC Web App"]
+    DB["Database"]
+
+    User --> Legacy
+    Legacy --> DB
+
+    subgraph LegacyAuth["Forms Authentication"]
+        Legacy
+    end
+```
+{% endcolumn %}
+
+{% column %}
+New Workflow
+
+```mermaid
+flowchart TB
+    User["User (Browser)"]
+    SPA["React/Vue SPA"]
+    Cognito["AWS Cognito"]
+    APIGW["API Gateway + Lambda"]
+    Legacy["Legacy .NET MVC App"]
+    LegacyAuth["Forms Authentication"]
+    DB["Database"]
+
+    User --> SPA
+    SPA --> Cognito
+    SPA --> APIGW
+    APIGW --> Cognito
+    APIGW --> DB
+
+    %% Legacy session bridging
+    SPA --> Legacy
+    Legacy --> Cognito
+    Legacy --> LegacyAuth
+    LegacyAuth --> DB
+
+    subgraph Serverless["Modern Serverless Stack"]
+        SPA
+        Cognito
+        APIGW
+    end
+
+    subgraph LegacyEnv["Legacy Environment"]
+        Legacy
+        LegacyAuth
+    end
+
+
+```
+{% endcolumn %}
+{% endcolumns %}
 
 ### 🔑 Use AWS Cognito for centralized authentication
 
