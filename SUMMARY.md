@@ -19,6 +19,7 @@
     * [Analysis](cloud/aws/analysis/README.md)
       * [Amazon Kinesis](cloud/aws/analysis/amazon-kinesis.md)
     * [App Integration](cloud/aws/app-integration/README.md)
+      * [Apache Airflow](cloud/aws/app-integration/apache-airflow.md)
       * [EventBridge](cloud/aws/app-integration/eventbridge.md)
       * [Aws SQS](cloud/aws/app-integration/sqs.md)
       * [Step Function](cloud/aws/app-integration/step-function.md)
