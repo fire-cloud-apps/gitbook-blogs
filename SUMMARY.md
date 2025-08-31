@@ -20,6 +20,7 @@
       * [Augment AI](cloud/aws/ai-and-ml/augment-ai.md)
       * [Bedrock](cloud/aws/ai-and-ml/bedrock.md)
       * [Comprehend](cloud/aws/ai-and-ml/comprehend.md)
+      * [Comprehend Medical](cloud/aws/ai-and-ml/comprehend-medical.md)
       * [Code Guru](cloud/aws/ai-and-ml/code-guru.md)
       * [DevOps Guru](cloud/aws/ai-and-ml/devops-guru.md)
       * [Kendra](cloud/aws/ai-and-ml/kendra.md)
