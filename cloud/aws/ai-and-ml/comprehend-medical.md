@@ -16,6 +16,8 @@ icon: prescription-bottle-medical
 
 Amazon Comprehend Medical is a HIPAA-eligible Natural Language Processing (NLP) service that uses pre-trained machine learning models to extract and structure health data from unstructured medical text. Instead of building and training your own complex NLP models, you can use a simple API call to analyze documents like doctor's notes, clinical trial reports, and patient records. It automatically identifies and categorizes medical information, providing a powerful tool for the healthcare and life sciences industries.
 
+<figure><img src="../../../.gitbook/assets/Arch_Amazon-Comprehend-Medical_64@5x.png" alt="" width="100"><figcaption></figcaption></figure>
+
 > 🤖 **Innovation Spotlight:** The true innovation of Amazon Comprehend Medical lies in its ability to understand the context and relationships between entities. It doesn't just identify a list of medical terms; it can link a medication to its dosage and frequency, or a medical condition to the patient's anatomy, providing a richer, more meaningful output. This contextual understanding is a significant leap from traditional keyword-based extraction methods.
 
 ### **⚡ Problem Statement & Business Use Cases**
