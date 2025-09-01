@@ -30,6 +30,7 @@
       * [Monitron](cloud/aws/ai-and-ml/monitron.md)
       * [PartyRock](cloud/aws/ai-and-ml/partyrock.md)
       * [Panoram](cloud/aws/ai-and-ml/panoram.md)
+      * [Personalize](cloud/aws/ai-and-ml/personalize.md)
     * [Analysis](cloud/aws/analysis/README.md)
       * [Amazon Kinesis](cloud/aws/analysis/amazon-kinesis.md)
     * [App Integration](cloud/aws/app-integration/README.md)
