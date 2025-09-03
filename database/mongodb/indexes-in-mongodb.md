@@ -23,7 +23,9 @@ Indexes in MongoDB are special data structures that store a subset of a collecti
 * Support for sorted results without additional processing.
 * Enforcement of uniqueness constraints.
 
+{% hint style="warning" %}
 However, indexes come with trade-offs: they consume storage and can slow down write operations (inserts, updates, deletes) since the index must be updated alongside the data.
+{% endhint %}
 
 #### Example: Basic Query Without and With Index
 
