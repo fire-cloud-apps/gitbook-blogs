@@ -96,5 +96,7 @@
     * [OpenShift](cloud/aws/container/openshift.md)
   * [Security](cloud/aws/security/README.md)
     * [🔒IAM Role Anywhere](cloud/aws/security/iam-role-anywhere.md)
+  * [Front End - Web & Mobile](cloud/aws/front-end-web-and-mobile/README.md)
+    * [Amplify](cloud/aws/front-end-web-and-mobile/amplify.md)
 * [Azure](cloud/azure/README.md)
   * [Real-Time Data Analytics](cloud/azure/real-time-data-analytics.md)
