@@ -43,6 +43,7 @@
   * [Serverless with Legacy Integration](solutions/serverless-with-legacy-integration.md)
   * [Multi-Tenenet DB](solutions/multi-tenenet-db/README.md)
     * [SQL](solutions/multi-tenenet-db/sql.md)
+  * [Amplify Hosted with Security](solutions/amplify-hosted-with-security.md)
 
 ## Cloud
 
@@ -94,9 +95,13 @@
     * [EKS](cloud/aws/container/eks.md)
     * [App2Container](cloud/aws/container/app2container.md)
     * [OpenShift](cloud/aws/container/openshift.md)
+    * [ECS Anywhere](cloud/aws/container/ecs-anywhere.md)
   * [Security](cloud/aws/security/README.md)
     * [🔒IAM Role Anywhere](cloud/aws/security/iam-role-anywhere.md)
   * [Front End - Web & Mobile](cloud/aws/front-end-web-and-mobile/README.md)
     * [Amplify](cloud/aws/front-end-web-and-mobile/amplify.md)
+    * [AppSync](cloud/aws/front-end-web-and-mobile/appsync.md)
+    * [Device Farm](cloud/aws/front-end-web-and-mobile/device-farm.md)
+    * [Location Service](cloud/aws/front-end-web-and-mobile/location-service.md)
 * [Azure](cloud/azure/README.md)
   * [Real-Time Data Analytics](cloud/azure/real-time-data-analytics.md)
