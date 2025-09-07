@@ -15,7 +15,7 @@ Amazon OpenSearch Service is a fully managed service that makes it easy for you 
 
 The service abstracts away the operational complexities of managing an OpenSearch cluster, such as hardware provisioning, software patching, and scaling. It provides a robust, secure, and highly available environment, allowing you to focus on ingesting, searching, and visualizing your data. OpenSearch Service also offers a serverless option, **Amazon OpenSearch Serverless**, which automatically provisions and scales resources, simplifying the experience even further.
 
-<figure><img src="../../../.gitbook/assets/Arch_Amazon-OpenSearch-Service_64@5x.png" alt="" width="100"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arch_Amazon-OpenSearch-Service_64@5x (1).png" alt="" width="100"><figcaption></figcaption></figure>
 
 ### # 🤖 Innovation Spotlight: Generative AI and Vector Search 🧠
 
