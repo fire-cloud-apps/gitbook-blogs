@@ -1,0 +1,6 @@
+---
+icon: feather
+---
+
+# Rich Dad
+
