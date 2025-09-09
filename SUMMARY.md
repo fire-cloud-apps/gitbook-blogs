@@ -97,6 +97,8 @@
     * [Entity Resolution](cloud/aws/analysis/entity-resolution.md)
     * [QuickSight](cloud/aws/analysis/quicksight.md)
     * [CleanRoom](cloud/aws/analysis/cleanroom.md)
+    * [Data Pipeline](cloud/aws/analysis/data-pipeline.md)
+    * [Data Exchange](cloud/aws/analysis/data-exchange.md)
   * [App Integration](cloud/aws/app-integration/README.md)
     * [Apache Airflow](cloud/aws/app-integration/apache-airflow.md)
     * [EventBridge](cloud/aws/app-integration/eventbridge.md)
