@@ -95,6 +95,8 @@
     * [RedShift](cloud/aws/analysis/redshift.md)
     * [Redshift Serverless](cloud/aws/analysis/redshift-serverless.md)
     * [Entity Resolution](cloud/aws/analysis/entity-resolution.md)
+    * [QuickSight](cloud/aws/analysis/quicksight.md)
+    * [CleanRoom](cloud/aws/analysis/cleanroom.md)
   * [App Integration](cloud/aws/app-integration/README.md)
     * [Apache Airflow](cloud/aws/app-integration/apache-airflow.md)
     * [EventBridge](cloud/aws/app-integration/eventbridge.md)
