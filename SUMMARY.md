@@ -18,6 +18,7 @@
   * [MongoDB](database/mongodb/README.md)
     * [Indexes in MongoDB](database/mongodb/indexes-in-mongodb.md)
     * [Query Tune beyond Index](database/mongodb/query-tune-beyond-index.md)
+    * [Schema Design](database/mongodb/schema-design.md)
   * [SQL Server](database/sql-server/README.md)
     * [Indexing in SQL Server](database/sql-server/indexing-in-sql-server.md)
     * [⚡Query Optimization](database/sql-server/query-optimization.md)
