@@ -124,7 +124,7 @@ graph TB
 
 #### 2. One-to-One Relationships 👤
 
-**When to Embed**: When data is frequently accessed together and the subdocument is not too large.
+**When to Embed**: When data is frequently accessed together and the sub-document is not too large.
 
 ```javascript
 // User with embedded profile (recommended for most cases)
@@ -295,25 +295,6 @@ function migrateUserDocuments() {
     }
   );
 }
-```
-
-```mermaid
-flowchart TD
-    A[Schema v1] --> B[Add phoneNumber field]
-    B --> C[Schema v2]
-    C --> D[Add preferences object]
-    D --> E[Schema v3]
-    
-    F[Migration Process] --> G[Check schemaVersion]
-    G --> H{Version < Current?}
-    H -->|Yes| I[Apply Migrations]
-    H -->|No| J[No Action Needed]
-    I --> K[Update schemaVersion]
-    
-    style A stroke:#ffecb3
-    style C stroke:#c8e6c9
-    style E stroke:#bbdefb
-    style F stroke:#f8bbd9
 ```
 
 ```mermaid

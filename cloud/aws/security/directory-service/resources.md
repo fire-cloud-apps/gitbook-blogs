@@ -13,7 +13,7 @@ icon: pallet-boxes
 
 **Simple AD** is a Microsoft Active Directory-compatible directory on AWS. It is designed for small to medium-sized businesses and provides a cost-effective way to manage users and groups.
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Key Features**
 
@@ -35,7 +35,7 @@ icon: pallet-boxes
 
 **AD Connector** is a directory gateway that allows you to connect your on-premises Microsoft Active Directory to AWS. It enables you to extend your existing directory to AWS without the need to replicate or synchronize your entire directory.
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Key Features**
 
@@ -56,7 +56,7 @@ icon: pallet-boxes
 
 **AWS Managed Microsoft AD** is a fully managed Microsoft Active Directory service that is compatible with Microsoft Active Directory. It provides a highly available and scalable directory service.
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Key Features**
 

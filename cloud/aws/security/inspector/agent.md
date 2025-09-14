@@ -16,7 +16,7 @@ icon: ufo
 
 🚀 **Amazon Inspector** was originally launched in 2015 as a security assessment service that helped identify vulnerabilities and deviations from best practices in AWS workloads. The **agent-based version** relied on installing a lightweight software agent directly onto EC2 instances to collect system-level data.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 📌 **Key Components of Agent-Based Inspector**:
 
