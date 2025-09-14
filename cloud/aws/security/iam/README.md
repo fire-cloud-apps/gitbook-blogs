@@ -13,7 +13,7 @@ icon: fingerprint
 
 AWS Identity and Access Management (IAM) is a foundational AWS service that enables you to securely control access to AWS resources. It provides fine-grained permissions management, allowing you to specify who or what can access specific resources and under what conditions. IAM supports identities like users, groups, roles, and federated identities, integrating with authentication mechanisms such as multi-factor authentication (MFA) and single sign-on (SSO). At its core, IAM uses JSON-based policies to define permissions, which can be attached to identities or resources. It scales seamlessly for enterprises, supporting features like temporary credentials via AWS Security Token Service (STS), policy evaluation logic, and auditing through AWS CloudTrail.
 
-<figure><img src="../../../.gitbook/assets/Arch_AWS-Identity-and-Access-Management_64@5x.png" alt="" width="100"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Arch_AWS-Identity-and-Access-Management_64@5x.png" alt="" width="100"><figcaption></figcaption></figure>
 
 > `Deep dive:` IAM operates on a deny-by-default model, where access is only granted if explicitly allowed. It handles authentication (verifying identity) and authorization (granting permissions). Key components include IAM users for long-term credentials, roles for temporary access (e.g., for EC2 instances or Lambda functions), groups for managing multiple users, and policies that define actions, resources, and conditions. IAM also supports attribute-based access control (ABAC) using tags, enabling dynamic permissions based on attributes like project or environment. It integrates with AWS Organizations for multi-account management and AWS IAM Identity Center for centralized SSO.
 
