@@ -14,7 +14,7 @@ icon: dyalog
 
 Amazon DynamoDB is a fully managed proprietary NoSQL database service that supports key-value and document data structures and is offered by AWS. It is designed to provide low-latency performance at any scale, making it ideal for web, mobile, gaming, ad tech, IoT, and other applications that need consistent, single-digit millisecond latency.
 
-<figure><img src="../../../../.gitbook/assets/Arch_Amazon-DynamoDB_64@5x.png" alt="" width="100"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arch_Amazon-DynamoDB_64@5x.png" alt="" width="100"><figcaption></figcaption></figure>
 
 #### 🤖 Innovation Spotlight
 

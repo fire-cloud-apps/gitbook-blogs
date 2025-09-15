@@ -10,7 +10,7 @@ icon: file-lines
 
 Amazon DocumentDB is a fully managed, scalable, and highly available document database service offered by AWS. It is designed to be compatible with MongoDB, a popular NoSQL database, allowing users to store, query, and index JSON data efficiently. DocumentDB is engineered to provide the scalability, durability, and performance needed for modern applications that deal with semi-structured data.
 
-<figure><img src="../../../../.gitbook/assets/Arch_Amazon-DocumentDB_64@5x.png" alt="" width="100"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arch_Amazon-DocumentDB_64@5x.png" alt="" width="100"><figcaption></figcaption></figure>
 
 #### 🤖 Innovation Spotlight
 
