@@ -13,7 +13,7 @@ icon: diagram-sankey
 
 Amazon Keyspaces (for Apache Cassandra) is a serverless, fully managed, and highly available database service built to run applications using the open-source Apache Cassandra query language (CQL). It provides elastic scalability, automatic replication across multiple Availability Zones, and on-demand throughput without the operational overhead of maintaining a Cassandra cluster.
 
-<figure><img src="../../../.gitbook/assets/Arch_Amazon-Keyspaces_64@5x.png" alt="" width="100"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Arch_Amazon-Keyspaces_64@5x.png" alt="" width="100"><figcaption></figcaption></figure>
 
 Unlike traditional Cassandra clusters, where you manage nodes, replication, and scaling, Keyspaces abstracts this complexity. Developers interact with it just like Cassandra, using familiar CQL APIs, but AWS handles infrastructure, scaling, backups, patching, and replication.
 
