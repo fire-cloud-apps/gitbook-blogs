@@ -3,10 +3,10 @@ description: >-
   AWS EC2 (Elastic Compute Cloud) is a central part of Amazon's cloud-computing
   platform, allowing users to rent virtual servers, known as instances, on which
   to run their applications.
-icon: tachograph-digital
+icon: server
 ---
 
-# EC2
+# EC2 Instance
 
 ## AWS EC2: A Comprehensive Overview
 
@@ -14,7 +14,7 @@ icon: tachograph-digital
 
 AWS EC2 (Elastic Compute Cloud) is a central part of Amazon's cloud-computing platform, allowing users to rent virtual servers, known as instances, on which to run their applications. It provides scalable computing capacity in the AWS cloud, making it easier for developers to obtain and configure capacity with minimal friction. EC2 eliminates the need to invest in hardware upfront, so you can develop and deploy applications faster.
 
-<figure><img src="../../../.gitbook/assets/Arch_Amazon-EC2_64@5x.png" alt="" width="100"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Arch_Amazon-EC2_64@5x.png" alt="" width="100"><figcaption></figcaption></figure>
 
 #### 🤖 Innovation Spotlight
 
