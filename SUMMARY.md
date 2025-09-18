@@ -181,6 +181,8 @@
       * [Object Lambda](cloud/aws/storage/s3-bucket/object-lambda.md)
     * [File Cache](cloud/aws/storage/file-cache.md)
     * [Storage Gateway](cloud/aws/storage/storage-gateway.md)
+    * [AWS Backup](cloud/aws/storage/aws-backup.md)
+    * [EBS](cloud/aws/storage/ebs.md)
   * [Compute](cloud/aws/compute/README.md)
     * [Lambda](cloud/aws/compute/lambda.md)
     * [Lightsail](cloud/aws/compute/lightsail.md)
