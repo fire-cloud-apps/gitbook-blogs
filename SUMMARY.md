@@ -188,6 +188,8 @@
     * [FSx](cloud/aws/storage/fsx/README.md)
       * [Lustre](cloud/aws/storage/fsx/lustre.md)
       * [ONTAP](cloud/aws/storage/fsx/ontap.md)
+      * [OpenZFS](cloud/aws/storage/fsx/openzfs.md)
+      * [WFS](cloud/aws/storage/fsx/wfs.md)
   * [Compute](cloud/aws/compute/README.md)
     * [Lambda](cloud/aws/compute/lambda.md)
     * [Lightsail](cloud/aws/compute/lightsail.md)
