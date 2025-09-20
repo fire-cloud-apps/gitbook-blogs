@@ -224,6 +224,6 @@
     * [User Notification](cloud/aws/management-and-governance/user-notification.md)
     * [Trusted Advisor](cloud/aws/management-and-governance/trusted-advisor.md)
     * [Proton](cloud/aws/management-and-governance/proton.md)
-    * [Amazon Q](cloud/aws/management-and-governance/amazon-q.md)
+    * [Q Developer](cloud/aws/management-and-governance/q-developer.md)
 * [Azure](cloud/azure/README.md)
   * [Real-Time Data Analytics](cloud/azure/real-time-data-analytics.md)
