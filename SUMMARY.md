@@ -218,5 +218,7 @@
     * [Well Architect](cloud/aws/management-and-governance/well-architect.md)
     * [OpsWorks](cloud/aws/management-and-governance/opsworks.md)
     * [Control Tower](cloud/aws/management-and-governance/control-tower.md)
+    * [CloudWatch](cloud/aws/management-and-governance/cloudwatch.md)
+    * [Compute Optimizer](cloud/aws/management-and-governance/compute-optimizer.md)
 * [Azure](cloud/azure/README.md)
   * [Real-Time Data Analytics](cloud/azure/real-time-data-analytics.md)
