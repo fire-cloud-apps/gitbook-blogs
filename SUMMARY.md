@@ -37,6 +37,8 @@
   * [Colorful Sand 🏖️](<Kids/Waves and Colorful Sand.md>)
   * [Discovery of Things](kids/discovery-of-things/README.md)
     * [🥔 Incas Secret](<Kids/Discovery of Things/Inca Secret.md>)
+  * [History](kids/history/README.md)
+    * [Lion of the Sahyadris](kids/history/lion-of-the-sahyadris.md)
 * [Book Summary](book-summary/README.md)
   * [Finance](book-summary/finance/README.md)
     * [Richest Man in Babylon](book-summary/finance/richest-man-in-babylon.md)
