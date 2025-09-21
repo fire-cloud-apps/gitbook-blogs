@@ -225,5 +225,8 @@
     * [Trusted Advisor](cloud/aws/management-and-governance/trusted-advisor.md)
     * [Proton](cloud/aws/management-and-governance/proton.md)
     * [Q Developer](cloud/aws/management-and-governance/q-developer.md)
+    * [System Manager](cloud/aws/management-and-governance/system-manager.md)
+    * [Service Catalog](cloud/aws/management-and-governance/service-catalog.md)
+    * [License Manager](cloud/aws/management-and-governance/license-manager.md)
 * [Azure](cloud/azure/README.md)
   * [Real-Time Data Analytics](cloud/azure/real-time-data-analytics.md)
