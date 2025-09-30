@@ -5,6 +5,8 @@
   * [🌌 Modern Web App](<.NET/🌌 Modern Web App in Azure .md>)
   * [Design](readme/design/README.md)
     * [Dependency Injection](readme/design/dependency-injection.md)
+  * [Best Practices](readme/best-practices/README.md)
+    * [5 Http Client Best Practices](readme/best-practices/5-http-client-best-practices.md)
 * [Architecture](architecture/README.md)
   * [Top 7 Diagrams](architecture/top-7-diagrams/README.md)
     * [Sequence Diagram](architecture/top-7-diagrams/sequence-diagram.md)
