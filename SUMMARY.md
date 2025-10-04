@@ -258,5 +258,6 @@
     * [IoT Analytics](cloud/aws/iot/iot-analytics.md)
     * [IoT Button](cloud/aws/iot/iot-button.md)
     * [IoT Core](cloud/aws/iot/iot-core.md)
+    * [FleetWise](cloud/aws/iot/fleetwise.md)
 * [Azure](cloud/azure/README.md)
   * [Real-Time Data Analytics](cloud/azure/real-time-data-analytics.md)
